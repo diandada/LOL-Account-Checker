@@ -66,7 +66,7 @@
                 <DataGridTextColumn Binding="{Binding Refunds}" Header="上赛季段位" />
                 <DataGridTextColumn Binding="{Binding SoloQRank}" Header="段位" />
                 <DataGridTextColumn Binding="{Binding LastPlay, StringFormat=\{0:dd-MM-yyyy HH:mm\}}"
-                                    Header="Last Play" Width="100" />
+                                    Header="最后游戏时间" Width="100" />
             </DataGrid.Columns>
             <DataGrid.ContextMenu>
                 <ContextMenu>
@@ -91,14 +91,14 @@
                VerticalAlignment="Center" Grid.Row="1" />
 
         <!-- Buttons -->
-        <Button x:Name="ImportButton" Content="Import" HorizontalAlignment="Right" Height="26" Margin="0,5,120,0"
+        <Button x:Name="ImportButton" Content="导入" HorizontalAlignment="Right" Height="26" Margin="0,5,120,0"
                 Grid.Row="1" VerticalAlignment="Top" Width="100" Click="BtnImportClick" />
-        <Button x:Name="AccountsButton" Content="Accounts" HorizontalAlignment="Right" Height="26" Margin="0,5,10,0"
+        <Button x:Name="AccountsButton" Content="帐号" HorizontalAlignment="Right" Height="26" Margin="0,5,10,0"
                 Grid.Row="1" VerticalAlignment="Top" Width="100" Click="BtnAccountsClick" />
 
-        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Right" Height="26" Margin="0,0,10,5"
+        <Button x:Name="StartButton" Content="开始" HorizontalAlignment="Right" Height="26" Margin="0,0,10,5"
                 Grid.Row="1" VerticalAlignment="Bottom" Width="100" Click="BtnStartCheckingClick" IsEnabled="False" />
-        <Button x:Name="ExportButton" Content="Export" HorizontalAlignment="Right" Height="26" Margin="0,0,120,5"
+        <Button x:Name="ExportButton" Content="导出" HorizontalAlignment="Right" Height="26" Margin="0,0,120,5"
                 Grid.Row="1" VerticalAlignment="Bottom" Width="100" Click="BtnExportToFileClick" IsEnabled="False" />
     </Grid>
 </Controls:MetroWindow>
