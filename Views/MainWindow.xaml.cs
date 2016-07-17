@@ -120,12 +120,12 @@ namespace LoLAccountChecker.Views
 
         private void BtnDonateClick(object sender, RoutedEventArgs e)
         {
-            Process.Start("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CHEV6LWPMHUMW");
+            Process.Start("tencent://message/?uin=3399288533&Site=Senlon.Net&Menu=yes");
         }
 
         private void BtnGithubClick(object sender, RoutedEventArgs e)
         {
-            Process.Start("https://github.com/madk/LoLAccountChecker");
+            Process.Start("https://github.com/diandada/LOL-Account-Checker");
         }
 
         private async void BtnRefreshClick(object sender, RoutedEventArgs e)
