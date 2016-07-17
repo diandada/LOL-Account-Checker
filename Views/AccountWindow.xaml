@@ -2,10 +2,10 @@
                       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                       xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
-                      Title="Champions" Height="390" Width="600" BorderBrush="#CC008A00" BorderThickness="1">
+                      Title="英雄" Height="390" Width="600" BorderBrush="#CC008A00" BorderThickness="1">
 
     <TabControl>
-        <TabItem Header="Champions">
+        <TabItem Header="英雄">
             <DataGrid x:Name="ChampionsGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
                       AutoGenerateColumns="False" ItemsSource="{Binding ChampionData}" IsReadOnly="True"
                       GridLinesVisibility="All">
@@ -16,7 +16,7 @@
                 </DataGrid.Columns>
             </DataGrid>
         </TabItem>
-        <TabItem Header="Skins">
+        <TabItem Header="皮肤">
             <DataGrid x:Name="SkinsGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
                       AutoGenerateColumns="False" ItemsSource="{Binding SkinData}" IsReadOnly="True"
                       GridLinesVisibility="All">
@@ -31,7 +31,7 @@
                 </DataGrid.ContextMenu>
             </DataGrid>
         </TabItem>
-        <TabItem Header="Runes">
+        <TabItem Header="符文">
             <DataGrid x:Name="RunesGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
                       AutoGenerateColumns="False" ItemsSource="{Binding ChampionData}" IsReadOnly="True"
                       GridLinesVisibility="All">
@@ -43,7 +43,7 @@
                 </DataGrid.Columns>
             </DataGrid>
         </TabItem>
-        <TabItem Header="Transfers">
+        <TabItem Header="赠送">
             <DataGrid x:Name="TransfersGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
                       AutoGenerateColumns="False" ItemsSource="{Binding Transfers}" IsReadOnly="True" Grid.RowSpan="1"
                       BorderBrush="LightGray" BorderThickness="0,1" GridLinesVisibility="All">
